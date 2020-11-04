@@ -5,13 +5,22 @@ module.exports = {
       name: `走走游游`,
       summary: `普通上班族、法拉利车主、枯燥。`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `忙忙碌碌倒不如走走游游`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `kylemathews`,
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-baidu-analytics`,
+      options: {
+        // baidu analytics siteId
+        siteId: `4893a36bbf26db88b96a9daa3add2188`,
+        // Put analytics script in the head instead of the body [default:false]
+        head: false,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -6083,6 +6083,11 @@ gatsby-page-utils@^0.2.29:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
+gatsby-plugin-baidu-analytics@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-baidu-analytics/-/gatsby-plugin-baidu-analytics-2.2.0.tgz#d8b4653d6f1ef9a2243ae0028b2ffdf592ee50e9"
+  integrity sha512-tY3BDTB7tF3gOPj61V25oiCwUT+7TclPwtG7wVa31abAMcMGXDaq54V2AMTa5Nux50zm/IIbvgsuygzul+FAyA==
+
 gatsby-plugin-feed@^2.5.19:
   version "2.5.20"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.5.20.tgz#a4dba4eddb4786028956933853382872a0adc362"
