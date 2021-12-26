@@ -6,7 +6,7 @@ module.exports = {
       summary: `普通上班族、法拉利车主、枯燥。`,
     },
     description: `忙忙碌碌倒不如走走游游`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://zzuu666.com/`,
     social: {
       twitter: `kylemathews`,
     },
