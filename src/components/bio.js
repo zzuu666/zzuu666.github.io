@@ -35,6 +35,7 @@ const Bio = () => {
         src="../../content/assets/profile-pic.jpg"
         height={50}
         width={50}
+        layout="fixed"
         alt={author?.name || ``}
         className="bio-avatar"
       />
