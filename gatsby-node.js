@@ -106,6 +106,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      banner: Banner
+    }
+
+    type Banner {
+      url: File @fileByRelativePath
+      pattern: String
+      placement: String
     }
 
     type Fields {

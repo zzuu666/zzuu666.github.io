@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
-import { Toggle } from './toggle'
-import { useTheme } from '../hooks/useTheme'
+import { Toggle } from "./toggle"
+import { useTheme } from "../hooks/useTheme"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ location, title, children }) => {
   const [theme, { setIsLightTheme }] = useTheme()
@@ -18,8 +19,8 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
+      <Link className="header-link-home flex items-center" to="/">
+        <StaticImage alt="Site logo" className="mr-2" height={28} width={28} src="../../content/assets/logo.png" /> {title}
       </Link>
     )
   }
@@ -27,10 +28,9 @@ const Layout = ({ location, title, children }) => {
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <div className="flex justify-between">
-        <header className="global-header">{header}</header>
-        <Toggle onChange={setIsLightTheme} checked={theme === 'light'} />
+        <header className="mb-5">{header}</header>
+        <Toggle onChange={setIsLightTheme} checked={theme === "light"} />
       </div>
-      
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
