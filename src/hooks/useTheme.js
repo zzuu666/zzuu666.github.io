@@ -19,7 +19,7 @@ export const useTheme = () => {
 
   const setIsLightTheme = useCallback(value => {
     setTheme(value ? "light" : "dark")
-  })
+  }, [])
 
   return [theme, { setIsLightTheme }]
 }

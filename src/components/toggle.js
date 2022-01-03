@@ -28,6 +28,7 @@ export const Toggle = props => {
           onClick={() => {
             onChange?.(!checked)
           }}
+          role="switch"
         />
         <span className="align-middle flex items-center justify-center w-8">
           <SunIcon className="fill-yellow-400" />

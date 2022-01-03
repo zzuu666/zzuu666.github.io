@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-baidu-analytics`,
