@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Toggle } from "./toggle"
 import { useTheme } from "../hooks/useTheme"
-import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from "gatsby-plugin-image"
 
 const Layout = ({ location, title, children }) => {
   const [theme, { setIsLightTheme }] = useTheme()
@@ -20,7 +20,15 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home flex items-center" to="/">
-        <StaticImage alt="Site logo" className="mr-2" height={28} width={28} src="../../content/assets/logo.png" /> {title}
+        <StaticImage
+          layout="fixed"
+          alt="Site logo"
+          className="mr-2"
+          height={28}
+          width={28}
+          src="../../content/assets/logo.png"
+        />
+        {title}
       </Link>
     )
   }
