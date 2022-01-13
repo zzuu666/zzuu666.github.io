@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"不如走走游游"}},"allMarkdownRemark":{"nodes":[{"excerpt":"diffstat 是什么？ 在 GitHub 中 diffstat 会以 5 个方块组成的柱状图（diffstat histogram）的形式展示，如封面图中的\n■■■■■。 在 Git 中的 diffstat…","fields":{"slug":"/explain-diffstat/"},"frontmatter":{"date":"January 13, 2022","title":"GitHub 中的 diffstat 所代表的含义？","description":"解释下 GitHub 中的 diffstat 柱状图的含义"}}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
